@@ -127,6 +127,14 @@ img {
 
 /* SKILLS END */
 
+
+.work_element {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 50px;
+  line-height: 100px;
+}
+
+
 @media screen and (max-width: 500px) {
   
   /* HOME */
