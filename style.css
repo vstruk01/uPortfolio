@@ -1,6 +1,7 @@
 body {
   overflow: hidden;
   margin: 0;
+  position: relative;
   background-color: #FFFFE0;
 }
 
@@ -165,10 +166,14 @@ img {
 } */
 
 @media only screen and (max-width: 639px) and (min-width: 300px) {
+  /* .links {
+    top: 52px;
+  } */
+
   .master {
     left: 0;
-    height: calc(100vh - 52px);
     top: 52px;
+    height: calc(100vh - 52px);
     width: 100%;
   }
 
