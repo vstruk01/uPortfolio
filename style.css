@@ -19,7 +19,7 @@ img {
   position: relative;
   width: 90%;
   left: 10%;
-  height: calc(100vh);
+  height: 100vh;
   justify-content: center;
   align-items: center;
   z-index: 1;
@@ -150,25 +150,35 @@ img {
 /* WORK END */
 
 
-@media screen and (max-width: 720px) {
+@media only screen and (max-width: 639px) and (min-width: 300px){
   
+  .master {
+    top: 8vh;
+    height: 92vh;
+    width: 100%;
+    left: 0;
+    text-align: center;
+  }
+
   /* HOME */
   .skills {
     letter-spacing: 1px;
     text-align: center;
     line-height: 50px;
-    font-size: 10px;
+    font-size: 12px;
   }
   #home_text {
-    height: 100px;
+    box-sizing: border-box;
+    padding: 10px;
+    height: calc(100% / 2);
     font-family: Courier, monospace;
-    text-align: center;
     display: grid;
   }
-  .typewriter-text {
-    letter-spacing: 2px;
+  .typewriter-text,
+  .skills_element {
+    letter-spacing: 1px;
     text-align: left;
-    font-size: 45px;
+    font-size: calc(100vh / 16);
     font-weight: 700;
     box-sizing: border-box;
   }
@@ -178,20 +188,20 @@ img {
     display: block;
     position: absolute;
     opacity: 0;
-    height: 100px;
+    height: 8vh;
     text-align: center;
-    line-height: 100px;
+    line-height: 8vh;
     font-size: 15px;
     color: black;
     font-weight: 700;
     font-family: 'Courier New', Courier, monospace;
     z-index: 3;
   }
-  img {
-    height: 40px; 
-  }
   .cap_element {
     height: 8vh;
+  }
+  img {
+    height: 30px;
   }
   .cap {
     grid-template-columns: repeat(5, 1fr);
@@ -199,6 +209,6 @@ img {
     height: 8vh;
   }
   .cap_img {
-    height: 40px;
+    height: 30px;
   }
 }
