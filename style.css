@@ -16,20 +16,22 @@ img {
 .master {
   display: flex;
   position: relative;
+  width: 90%;
+  left: 10%;
+  height: calc(100vh);
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 100%;
   z-index: 1;
 }
 
 .cap {
   background-color: rgba(0, 250, 154, 0.5);
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  /* grid-template-columns: repeat(5, 1fr); */
+  grid-template-rows: repeat(5, calc(100vh / 5));
   position: fixed;
-  width: 100%;
-  height: 180px;
+  width: 10%;
+  height: 100vh;
   z-index: 2;
 }
 
