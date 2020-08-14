@@ -6,7 +6,7 @@ body {
 
 a {
   color: black;
-   text-decoration: none;
+  text-decoration: none;
 }
 
 img {
@@ -15,6 +15,7 @@ img {
 
 .master {
   display: flex;
+  flex-direction: column;
   position: relative;
   width: 90%;
   left: 10%;
@@ -81,8 +82,9 @@ img {
 
 /* HOME */
 
+
 #home_text {
-  height: 272px;
+  height: calc(100vh / 4);
   font-family: Courier, monospace;
   text-align: center;
   display: grid;
@@ -90,10 +92,14 @@ img {
 
 .typewriter-text {
   letter-spacing: 2px;
-  text-align: left;
+  text-align: center;
   font-size: 50px;
   font-weight: 700;
   box-sizing: border-box;
+}
+
+#vlad_img {
+  height: 400px;
 }
 
 .skills {
@@ -135,6 +141,14 @@ img {
   font-size: 50px;
   line-height: 100px;
 }
+
+/* WORK */
+
+.project {
+  text-decoration: underline;
+}
+
+/* WORK END */
 
 
 @media screen and (max-width: 500px) {
