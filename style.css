@@ -242,7 +242,7 @@ img {
   }
 }
 
-@media only screen and (max-height: 639px) and (min-height: 300px) {
+@media only screen and (max-height: 639px) {
   img {
     height: 30px;
   }
