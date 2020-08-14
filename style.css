@@ -97,9 +97,6 @@ img {
   box-sizing: border-box;
 }
 
-#vlad_img {
-  height: 400px;
-}
 
 .skills {
   font-family: Courier, monospace;
@@ -113,9 +110,15 @@ img {
 
 /* text */
 
+.work_element,
+.skills_element {
+  margin-top: 30px;
+}
+
 .skills_element,
 .contact_text,
-.work_element {
+.work_element,
+.about_text {
   font-size: 40px;
   font-family: 'Courier Prime', monospace;
   /* font-family: 'DM Mono', monospace; */
@@ -123,7 +126,15 @@ img {
   /* font-family: 'Baloo Tamma 2', cursive; */
 }
 
+.contact_text {
+  font-size: 60px;
+}
 
+.about_text {
+  box-sizing: border-box;
+  padding: 50px;
+  font-size: 50px;
+}
 /* END text */
 
 /* CONTACT */
@@ -204,11 +215,24 @@ img {
   .contact_text {
     font-size: calc(100vh / 25);
   }
+
+  .about_text {
+    box-sizing: border-box;
+    padding: 5px; 
+    font-size: calc(100vh / 35);
+  }
+
   .skills_element,
   .work_element {
     box-sizing: border-box;
     padding: 5px; 
     font-size: calc(100vh / 25);
+  }
+
+  .about_text {
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: calc(100vh / 33);
   }
 
   /* HOME END */
@@ -242,6 +266,14 @@ img {
   }
 }
 
+@media only screen and (max-height: 1100px) and (min-height: 639px) {
+    .about_text {
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: calc(100vh / 22);
+  }
+}
+
 @media only screen and (max-height: 639px) {
   img {
     height: 30px;
@@ -257,8 +289,12 @@ img {
     line-height: calc(100vh / 5);
   }
 
+  .contact_img {
+    height: calc(100vh / 15);
+  }
+
   .contact_text {
-    font-size: calc(100vh / 20);
+    font-size: calc(100vh / 15);
   }
 
   .skills {
@@ -268,6 +304,17 @@ img {
 
   #home_text {
     height: calc(100vh / 2);
+  }
+
+  .about_text {
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: calc(100vh / 22);
+  }
+
+  .work_element,
+  .skills_element {
+    margin-top: 15px;
   }
 
   .skills_element,
