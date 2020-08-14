@@ -270,7 +270,14 @@ img {
     .about_text {
     box-sizing: border-box;
     padding: 20px;
-    font-size: calc(100vh / 22);
+    font-size: calc(100vh / 28);
+  }
+  .skills_element {
+  margin-top: 6px;
+  }
+
+  .work_element {
+    margin-top: 15px;
   }
 }
 
@@ -309,11 +316,14 @@ img {
   .about_text {
     box-sizing: border-box;
     padding: 20px;
-    font-size: calc(100vh / 22);
+    font-size: calc(100vh / 28);
   }
 
-  .work_element,
   .skills_element {
+  margin-top: 6px;
+  }
+
+  .work_element {
     margin-top: 15px;
   }
 
