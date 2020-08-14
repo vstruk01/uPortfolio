@@ -150,13 +150,13 @@ img {
 /* WORK END */
 
 
-@media only screen and (max-width: 639px) and (min-width: 300px){
-  
+@media only screen and (max-width: 639px) and (min-width: 300px) {
   .master {
-    top: 8vh;
+    position: relative;
+    left: 0;
+    top: calc(100% - 92vh);
     height: 92vh;
     width: 100%;
-    left: 0;
     text-align: center;
   }
 
@@ -165,7 +165,7 @@ img {
     letter-spacing: 1px;
     text-align: center;
     line-height: 50px;
-    font-size: 12px;
+    font-size: 10px;
   }
   #home_text {
     box-sizing: border-box;
@@ -178,7 +178,7 @@ img {
   .skills_element {
     letter-spacing: 1px;
     text-align: left;
-    font-size: calc(100vh / 16);
+    font-size: calc(100vh / 18);
     font-weight: 700;
     box-sizing: border-box;
   }
