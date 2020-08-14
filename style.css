@@ -17,8 +17,8 @@ img {
   display: flex;
   flex-direction: column;
   position: relative;
-  width: 90%;
-  left: 10%;
+  width: calc(100% - 120px);
+  left: 120px;
   height: 100vh;
   justify-content: center;
   align-items: center;
@@ -91,7 +91,7 @@ img {
 .typewriter-text {
   font-family: Courier, monospace;
   letter-spacing: 2px;
-  font-size: calc(100vh / 16);
+  font-size: 60px;
   font-weight: 700;
   box-sizing: border-box;
 }
@@ -104,7 +104,7 @@ img {
   font-family: Courier, monospace;
   letter-spacing: 2px;
   text-align: center;
-  line-height: 100px;
+  line-height: 70px;
   font-size: 20px;
 }
 
@@ -116,10 +116,12 @@ img {
 .contact_text,
 .work_element {
   font-size: 40px;
-  font-family: 'DM Mono', monospace;
+  font-family: 'Courier Prime', monospace;
+  /* font-family: 'DM Mono', monospace; */
   /* font-family: 'Nova Mono', monospace; */
   /* font-family: 'Baloo Tamma 2', cursive; */
 }
+
 
 /* END text */
 
@@ -147,7 +149,7 @@ img {
 /* WORK END */
 
 
-@media only screen and (max-width: 810px) {
+/* @media only screen and (max-width: 810px) {
   .cap {
     grid-template-columns: repeat(5, 1fr);
     width: 100%;
@@ -160,13 +162,13 @@ img {
   .cap_element {
     height: 16vh;
   }
-}
+} */
 
 @media only screen and (max-width: 639px) and (min-width: 300px) {
   .master {
     left: 0;
-    height: 92vh;
-    top: 8vh;
+    height: calc(100vh - 52px);
+    top: 52px;
     width: 100%;
   }
 
@@ -174,12 +176,12 @@ img {
   .skills {
     letter-spacing: 1px;
     text-align: center;
-    line-height: 15px;
-    font-size: 12px;
+    line-height: 25px;
+    font-size: 15px;
   }
   #home_text {
     width: 100%;
-    box-sizing: border-box;
+    height: calc(100vh / 3);
     font-family: Courier, monospace;
     display: grid;
   }
@@ -189,7 +191,7 @@ img {
     align-items: center;
     padding: 0px 10px 0px 10px;
     letter-spacing: 1px;
-    text-align: left;
+    text-align: center;
     font-size: calc(100vh / 18);
     font-weight: 700;
     box-sizing: border-box;
@@ -201,7 +203,6 @@ img {
   .work_element {
     box-sizing: border-box;
     padding: 5px; 
-    /* font-size: 20px; */
     font-size: calc(100vh / 25);
   }
 
@@ -233,5 +234,45 @@ img {
   }
   .cap_img {
     height: 30px;
+  }
+}
+
+@media only screen and (max-height: 639px) and (min-height: 300px) {
+  img {
+    height: 30px;
+  }
+
+  .cap_img {
+    height: 30px;
+  }
+
+  .cap_text {
+    height: calc(100vh / 5);
+    font-size: 18px;
+    line-height: calc(100vh / 5);
+  }
+
+  .contact_text {
+    font-size: calc(100vh / 20);
+  }
+
+  .skills {
+    line-height: 40px;
+    font-size: 15px;
+  }
+
+  #home_text {
+    height: calc(100vh / 2);
+  }
+
+  .skills_element,
+  .work_element {
+    box-sizing: border-box;
+    padding: 5px; 
+    font-size: calc(100vh / 20);
+  }
+
+  .typewriter-text {
+    font-size: 40px;
   }
 }
