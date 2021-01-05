@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Pixelizator",
+        "team": [
+            {
+                "github": "https://github.com/vstruk01",
+                "image": "assets/images/vlad.png",
+                "name": "vlad"
+            }
+        ],
+        "description": "web app for pixelixate image in any format",
+        "time": "two weeks",
+        "technology": ["java", "javaee", "jsp",  "js", "html", "css", "maven", "ui/ux", "tomcat 7"],
+        "skills": "Java programming, html/css/js, web app",
+        "github": "https://github.com/vstruk01/pixelizator"
+    }, 
+    {
+        "name": "Ubay",
+        "team": [
+            {
+                "github": "https://github.com/vstruk01",
+                "image": "assets/images/vlad.png",
+                "name": "vlad"
+            },
+            {
+                "github": "https://github.com/yuriimakohon",
+                "image": "assets/images/ymakohon.png",
+                "name": "yura"
+            },
+            {
+                "github": "https://github.com/vstruk01",
+                "image": "assets/images/stanislav.png",
+                "name": "sasha"
+            }
+        ],
+        "description": "Online web-auction with REST-API",
+        "time": "three weeks",
+        "technology": ["java", "javaee", "servlets", "tomcat 9", "js", "html", "maven", "rest api", "css", "trello", "jsp", "jquery"],
+        "skills": "Java programming, html/css/js, web app, rest api",
+        "github": "https://github.com/yuriimakohon/ubay"
+    }
+]
