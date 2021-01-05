@@ -1,5 +1,115 @@
 [
     {
+        "name": "VVEnglishBot",
+        "team": [
+            {
+                "github": "https://github.com/vstruk01",
+                "image": "assets/images/vlad.png",
+                "name": "vlad"
+            }
+        ],
+        "description": "bot for maintaining your own dictionary, for learning words, you can write words, delete, repeat",
+        "time": "two weeks",
+        "technology": ["go", "go modules", "http", "json", "telegramapi"],
+        "skills": "Golang programming, http, work with telegramApi",
+        "github": "https://github.com/vstruk01/telegram_bot"
+    },
+    {
+        "name": "Uls",
+        "team": [
+            {
+                "github": "https://github.com/vstruk01",
+                "image": "assets/images/vlad.png",
+                "name": "vlad"
+            },
+            {
+                "github": "https://github.com/oivannikov",
+                "image": "assets/images/alex.jpeg",
+                "name": "oivannikov"
+            }
+        ],
+        "description": "implementation ls utility of unix systems",
+        "time": "a month",
+        "technology": ["c"],
+        "skills": "Team work, C programming, Unix systems",
+        "github": "https://github.com/vstruk01/uls"
+    },
+    {
+        "name": "Shell",
+        "team": [
+            {
+                "github": "https://github.com/vstruk01",
+                "image": "assets/images/vlad.png",
+                "name": "vlad"
+            },
+            {
+                "github": "https://github.com/vladbalach",
+                "image": "assets/images/vladb.png",
+                "name": "vlad"
+            },
+            {
+                "github": "https://github.com/olanser",
+                "image": "assets/images/solianovsk.png",
+                "name": "sergey"
+            }
+        ],
+        "description": "implementation command shell",
+        "time": "two months",
+        "technology": ["c"],
+        "skills": " Team work, C programming, Unix systems",
+        "github": "https://github.com/vstruk01/ush"
+    },
+    {
+        "name": "Uchat",
+        "team": [
+            {
+                "github": "https://github.com/vstruk01",
+                "image": "assets/images/vlad.png",
+                "name": "vlad"
+            },
+            {
+                "github": "https://github.com/okhomin",
+                "image": "assets/images/homin.jpeg",
+                "name": "sasha"
+            },
+            {
+                "github": "https://github.com/yuriimakohon",
+                "image": "assets/images/ymakohon.png",
+                "name": "yura"
+            },
+            {
+                "github": "https://github.com/Dumagenon",
+                "image": "assets/images/pablo.png",
+                "name": "pasha"
+            },
+            {
+                "github": "https://github.com/torvalds",
+                "image": "assets/images/torvald.jpeg",
+                "name": "torvalds"
+            }
+        ],
+        "description": "Messager",
+        "time": "three months",
+        "technology": ["c", "glib", "gtk", "json", "sqlite3", "socket", "css", "ui/ux"],
+        "skills": "Team work, Database, C programming, Unix systems, Sockets",
+        "github": "https://github.com/unitucode/uchat"
+    },
+    {
+        "name": "Dino",
+        "team": [
+            {
+                "github": "https://github.com/vstruk01",
+                "image": "assets/images/vlad.png",
+                "name": "vlad"
+            }
+        ],
+        "description": "simple runner game",
+        "time": "two weeks",
+        "technology": ["java", "javafx", "gui",  "gradle"],
+        "skills": "Team work, C programming, Unix systems",
+        "github": "https://github.com/vstruk01/dino"
+    },
+    {
         "name": "Pixelizator",
         "team": [
             {
@@ -13,7 +123,7 @@
         "technology": ["java", "javaee", "jsp",  "js", "html", "css", "maven", "ui/ux", "tomcat 7"],
         "skills": "Java programming, html/css/js, web app",
         "github": "https://github.com/vstruk01/pixelizator"
-    }, 
+    },
     {
         "name": "Ubay",
         "team": [
@@ -28,7 +138,7 @@
                 "name": "yura"
             },
             {
-                "github": "https://github.com/vstruk01",
+                "github": "https://github.com/Zemerr",
                 "image": "assets/images/stanislav.png",
                 "name": "sasha"
             }
@@ -37,6 +147,6 @@
         "time": "three weeks",
         "technology": ["java", "javaee", "servlets", "tomcat 9", "js", "html", "maven", "rest api", "css", "trello", "jsp", "jquery"],
         "skills": "Java programming, html/css/js, web app, rest api",
-        "github": "https://github.com/yuriimakohon/ubay"
+        "github": "https://github.com/vstruk01/ubay"
     }
 ]
