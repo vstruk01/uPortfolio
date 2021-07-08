@@ -1,5 +1,4 @@
 #home,
-#skills,
 #contacts,
 #my_work {
     display: flex;
@@ -128,7 +127,6 @@
 
 .contact {
     position: relative;
-    box-sizing: border-box;
     border-radius: 6px;
     border-color: black;
     background-color: antiquewhite;
