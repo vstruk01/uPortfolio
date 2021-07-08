@@ -4,10 +4,10 @@ const Base64 = {
 };
 
 async function loadWorks() {
-    let resp = await fetch('https://api.github.com/repos/vstruk01/uPortfolio/contents/works.json', {
+    let resp = await fetch('https://api.github.com/repos/vstruk01/uPortfolio/contents/data/works.json', {
         method: 'GET'
     })
-    // let resp = await fetch('http://127.0.0.1:5500/works.json', {
+    // let resp = await fetch('http://127.0.0.1:5500/data/works.json', {
     //     method: 'GET'
     // })
 
@@ -22,17 +22,17 @@ async function loadWorks() {
 }
 
 async function loadAbout() {
-    // let resp = await fetch('https://api.github.com/repos/vstruk01/uPortfolio/contents/about-lists.json', {
-    //     method: 'GET'
-    // })
-    let resp = await fetch('http://127.0.0.1:5500/about-lists.json', {
+    let resp = await fetch('https://api.github.com/repos/vstruk01/uPortfolio/contents/data/about-lists.json', {
         method: 'GET'
     })
+    // let resp = await fetch('http://127.0.0.1:5500/data/about-lists.json', {
+    //     method: 'GET'
+    // })
 
     if (resp.ok) {
         let about = await resp.json();
-        // return JSON.parse(String.fromCharCode.apply(null, Base64.decode(about.content)));
-        return about;
+        return JSON.parse(String.fromCharCode.apply(null, Base64.decode(about.content)));
+        // return about;
     } else {
         console.log('error load works');
         return []
