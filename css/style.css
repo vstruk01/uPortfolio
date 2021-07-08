@@ -1,13 +1,5 @@
 
-/* HOME */
 @media only screen and (max-width: 639px) and (min-width: 300px) {
-  .master {
-    left: 0;
-    top: 52px;
-    height: calc(100vh - 52px);
-    width: 100%;
-  }
-
   /* HOME */
   .skills {
     letter-spacing: 1px;
@@ -15,6 +7,7 @@
     line-height: 25px;
     font-size: 15px;
   }
+
   #home_text {
     width: 100%;
     height: calc(100vh / 3);

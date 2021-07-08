@@ -16,6 +16,11 @@
         padding: 30px;
     }
 
+    .typewriter-text {
+        text-align: center;
+        font-size: 35px;
+    }
+
     #work {
         padding: 8px;
         overflow-y: scroll;
