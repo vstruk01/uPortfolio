@@ -1,0 +1,30 @@
+[
+    {
+        "nameColumn": "Program Languages",
+        "items": [
+            "<strong>Golang</strong> 6 months",
+            "<strong>C</strong> one year",
+            "<strong>Java Script</strong> 7 months",
+            "<strong>Java</strong> 4 months"
+        ]
+    },
+    {
+        "nameColumn": "Technolody and Scills",
+        "items": [
+            "Sql (Postgresql, Sqlite3, ClickHouse)",
+            "NoSql (Mongodb)",
+            "OOP, Solid, Patterns",
+            "Docker, Docker-compouse",
+            "Makefile",
+            "Git (Github, Gitlub)",
+            "Linux, Macos",
+            "Work in Scram team (Jira, Asana)"
+        ]
+    },
+    {
+        "nameColumn": "Languages",
+        "items": [
+            "English Elementary"
+        ]
+    }
+]

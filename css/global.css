@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  border: 0px;
+}
+
+.links {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+body {
+  overflow: hidden;
+  margin: 0;
+  position: relative;
+  background-color: #FFFCF5;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.container {
+    margin-left: 150px;
+    margin-right: 30px;
+}

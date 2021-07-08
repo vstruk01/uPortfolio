@@ -1,0 +1,21 @@
+@media (max-width: 767px) {
+    .container {
+        max-width: none;
+        margin: 0px 10px 0 10px;
+    }
+
+    /* #home {
+        margin-top: 52px;
+    } */
+
+    #work {
+        padding: 8px;
+        overflow-y: scroll;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+    
+}

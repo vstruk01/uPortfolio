@@ -1,0 +1,14 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 970;
+    }
+
+    #work {
+        padding: 10px;
+        overflow-y: scroll;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+}

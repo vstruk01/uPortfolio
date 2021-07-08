@@ -1,88 +1,5 @@
-.master {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  width: calc(100% - 120px);
-  left: 120px;
-  height: auto;
-  justify-content: center;
-  align-items: center;
-  z-index: 1;
-}
-
-.links {
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-}
 
 /* HOME */
-
-#home,
-#about,
-#skills,
-#contacts,
-#my_work {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  margin-left: 120px;
-  align-items: center;
-  justify-content: center;
-}
-
-#home_text {
-  display: grid;
-  height: calc(100vh / 4);
-  text-align: center;
-}
-
-.typewriter-text {
-  font-family: Courier, monospace;
-  letter-spacing: 2px;
-  font-size: 60px;
-  font-weight: 700;
-  box-sizing: border-box;
-}
-
-
-.skills {
-  font-family: Courier, monospace;
-  letter-spacing: 2px;
-  text-align: center;
-  line-height: 70px;
-  font-size: 20px;
-}
-
-/* HOME END */
-
-/* text */
-
-.work_element,
-.skills_element {
-  margin-top: 30px;
-}
-
-.skills_element,
-.contact_text,
-.work_element,
-.about_text {
-  font-size: 40px;
-  font-family: 'Courier Prime', monospace;
-}
-
-/* END text */
-
-
-/* WORK */
-
-.project {
-  text-decoration: underline;
-}
-
-/* WORK END */
-
 @media only screen and (max-width: 639px) and (min-width: 300px) {
   .master {
     left: 0;
@@ -222,11 +139,9 @@
 }
 
 #work {
-  box-sizing: border-box;
-  width: calc(100%);
-  height: auto;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding: 12px;
+  overflow-y: scroll;
+  height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -236,7 +151,7 @@
 .cardProject {
   position: relative;
   border: 1px solid black;
-  padding: 20px;
+  padding: 20px 20px 40px 20px;
   background-color: #FFFAF0;
   border-radius: 12px;
   font-size: 20px;
@@ -244,8 +159,8 @@
 }
 
 .TitleCard {
+  font-family: 'Courier New', Courier;
   border-radius: 5px;
-  height: 40px;
   line-height: 40px;
   display: block;
   background-color: #dcfae6;

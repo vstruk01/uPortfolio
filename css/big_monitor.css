@@ -1,0 +1,153 @@
+#home,
+#skills,
+#contacts,
+#my_work {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#about {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: center;
+}
+  
+.about-list {
+    width: calc(calc(100% / 3) - 20px);
+    margin: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 30px;
+}
+  
+.about-title {
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+}
+  
+.about-item {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px;
+}
+  
+  
+.typewriter-text {
+    font-family: Courier, monospace;
+    letter-spacing: 2px;
+    font-size: 60px;
+    font-weight: 700;
+    box-sizing: border-box;
+}
+  
+  
+/* work */
+
+#my_work {
+    height: auto;
+    display: block;
+}
+  
+#work {
+    padding: 12px;
+    overflow-y: scroll;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+  
+.cardProject {
+    position: relative;
+    border: 1px solid black;
+    padding: 20px 20px 40px 20px;
+    background-color: #FFFAF0;
+    border-radius: 12px;
+    font-size: 20px;
+    line-height: 30px;
+}
+  
+.TitleCard {
+    font-family: 'Courier New', Courier;
+    border-radius: 5px;
+    line-height: 40px;
+    display: block;
+    background-color: #dcfae6;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+  
+.TitleItem {
+    font-size: 15px;
+    font-weight: 600;
+}
+  
+.teg {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-right: 4px;
+    display: inline-block;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e1ecf4;
+    color: #39739d;
+    background-color: #e1ecf4;
+    padding: .1em .4em;
+}
+  
+.linkCard {
+    position: absolute;
+    width: 60px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    display: block;
+    padding: 4px;
+    text-align: center;
+    left: calc(50% - 30px);
+    bottom: 2px;
+}
+  
+.linkCard:hover {
+    background-color: rgb(212, 162, 162);
+    color: rgb(0, 0, 0);
+}
+
+/* contact */
+
+.contact {
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border-color: black;
+    background-color: antiquewhite;
+    text-align: center;
+    width: 500px;
+    height: 80px;
+    padding: 10px;
+    line-height: 60px;
+    font-family: 'Courier Prime', monospace;
+    font-size: 40px;
+    margin-top: 10px;
+}
+  
+.contact_img {
+    position: absolute;
+    left: -70px;
+}
+  
+.contact:hover {
+    background-color: gray;
+}
+  

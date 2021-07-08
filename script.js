@@ -21,6 +21,24 @@ async function loadWorks() {
     }
 }
 
+async function loadAbout() {
+    // let resp = await fetch('https://api.github.com/repos/vstruk01/uPortfolio/contents/about-lists.json', {
+    //     method: 'GET'
+    // })
+    let resp = await fetch('http://127.0.0.1:5500/about-lists.json', {
+        method: 'GET'
+    })
+
+    if (resp.ok) {
+        let about = await resp.json();
+        // return JSON.parse(String.fromCharCode.apply(null, Base64.decode(about.content)));
+        return about;
+    } else {
+        console.log('error load works');
+        return []
+    }
+}
+
 async function renderWorks() {
     let work_html = document.getElementById('work');
     let works = await loadWorks();
@@ -55,4 +73,25 @@ async function renderWorks() {
     }
 }
 
+
+async function renderAbout() {
+    let about_h = document.getElementById('about');
+    let abouts_list = await loadAbout();
+
+    for (let list of abouts_list) {
+        let obj = `<div class="about-list">
+                    <p class="about-title">
+                        ${list.nameColumn}
+                    </p>
+        <div>`
+
+        for (let item of list.items) {
+            obj += `<div class="about-item">${item}</div>`
+        }
+        obj += `</div></div>`
+        about_h.innerHTML += obj
+    }
+}
+
+renderAbout();
 renderWorks();

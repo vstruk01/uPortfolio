@@ -7,11 +7,15 @@
     <meta name="author" content="vladislav">
     <meta name="description" content="uporfolio">
     <meta name="keywords" content="portfolio uporfolio vladislav struk programer developer vstruk">
+    <meta name="viewport">
     <title>Portfolio</title>
     <link rel="icon" type="image/x-icon" href="assets/images/lightning.jpg">
-    <link rel="stylesheet" href="global.css">
-    <link rel="stylesheet" href="cap_style.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/cap_style.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/big_monitor.css">
+    <link rel="stylesheet" href="css/small_monitor">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/phone.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
@@ -34,12 +38,12 @@
           </a>
           <div class="cap_text">ABOUT</div>
         </div>
-        <div class="cap_element">
+        <!-- <div class="cap_element">
           <a href="#skills" class="cap_img">
             <img src="assets/images/user.png" alt="settings">
           </a>
           <div class="cap_text">SKILLS</div>
-        </div>
+        </div> -->
         <div class="cap_element">
           <a href="#my_work" class="cap_img">
             <img src="assets/images/eye.png" alt="eye">
@@ -54,55 +58,39 @@
         </div>
       </div>
     </nav>
-    <section id="home">
-        <div id="home_text">
-          <div class="typewriter-text">Hi</div>
-          <div class="typewriter-text">I'm Vladislav</div>
-          <div class="typewriter-text">Developer</div>
-          <div class="skills_home">C | C++ | Golang | Java | HTML/CSS/JS </div>
-        </div>
-    </section>
-    <section id="about">
-      <div class="skills_element">Vladislav 18 y.o.</div>
-      <div class="skills_element">Location: Kiev</div>
-      <div class="skills_element">Student at Ucode IT Academy</div>
-      <div class="skills_element">Experience:</div>
-      <div class="skills_element">Work with Git and a team</div>
-      <div class="skills_element">C 7 month experience, 4 projects</div>
-      <div class="skills_element">Java 2 month experience, 3 projects</div>
-      <div class="skills_element">Golang a month experience, a project</div>
-      <div class="skills_element">HTML\CSS\JS 1 month experience</div>
-      <div class="skills_element">C++ basic</div>
-    </section>
-    <section id="skills">
-        <div id="skills_block">
-          <div class="skills_element">Sqlite3, Glib, JavaFX, JavaEE</div>
-          <div class="skills_element">Java Servlets, HTTP, JSON</div>
-          <div class="skills_element">API, REST API, Telegram API</div>
-        </div>
-    </section>
-    <section id="my_work">
-        <div id="work"></div>
-    </section>
-    <section id="contacts">
-        <a class="links">contact</a>
-        <a href="https://t.me/Vstruk01" class="contact" target="_blank">
-            <img class="contact_img" src="assets/images/telegram.png" alt="">
-            telegram
-        </a>
-        <a class="contact" href="https://instagram.com/_alius_et_idem_?igshid=1ucys3wnd9ub" target="_blank">
-          <img class="contact_img" src="assets/images/instagram.png" alt="">
-          instagram
-        </a>
-        <a class="contact" href="mailto:vstruk@gmail.com" target="_blank">
-          <img class="contact_img" src="assets/images/gmail.png" alt="">
-          gmail
-        </a>
-        <a class="contact" href="https://github.com/vstruk01" target="_blank">
-          <img class="contact_img" src="assets/images/github.png" alt="">
-          github
-        </a>
+    <div class="container">
+      <section id="home">
+            <div class="typewriter-text">Hi,<br>I'm Vladislav<br>Software Engineer</div>
       </section>
-      <script src="script.js"></script>
+      <section id="about">
+      </section>
+      <section id="my_work" class>
+          <div id="work"></div>
+      </section>
+      <section id="contacts">
+          <a class="links">contact</a>
+          <a href="https://t.me/Vstruk01" class="contact" target="_blank">
+              <img class="contact_img" src="assets/images/telegram.png" alt="">
+              telegram
+          </a>
+          <a class="contact" href="https://instagram.com/_alius_et_idem_?igshid=1ucys3wnd9ub" target="_blank">
+            <img class="contact_img" src="assets/images/instagram.png" alt="">
+            instagram
+          </a>
+          <a class="contact" href="mailto:vstruk@gmail.com" target="_blank">
+            <img class="contact_img" src="assets/images/gmail.png" alt="">
+            gmail
+          </a>
+          <a class="contact" href="https://github.com/vstruk01" target="_blank">
+            <img class="contact_img" src="assets/images/github.png" alt="">
+            github
+          </a>
+          <a class="contact" href="https://www.linkedin.com/in/vladislav-struk-7a09a21b8" target="_blank">
+            <img class="contact_img" src="assets/images/linkedin.png" alt="">
+            linkedin
+          </a>
+        </section>
+    </div>
+      <script defer src="script.js"></script>
   </body>
 </html>
