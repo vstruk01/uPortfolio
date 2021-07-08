@@ -1,6 +1,6 @@
 [
     {
-        "nameColumn": "Program Languages",
+        "nameColumn": "Programming Languages",
         "items": [
             "<strong>Golang</strong> 6 months",
             "<strong>C</strong> one year",
@@ -24,7 +24,8 @@
     {
         "nameColumn": "Languages",
         "items": [
-            "English Elementary"
+            "English Elementary",
+            "Russian Intermediate"
         ]
     }
 ]
